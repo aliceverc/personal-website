@@ -50,8 +50,16 @@ nav a {
     font-weight: 700;
     text-decoration: none;
     padding: 20px;
+    width: 50%;
+    text-align: center;
 }
 nav a:hover {
   background-color: rgb(38, 38, 100);
   color: #fff !important;
+}
+
+.my_main span {
+  padding: 10px;
+  border: 2px #fff solid;
+  line-height: 4;
 }

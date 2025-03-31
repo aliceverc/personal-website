@@ -24,10 +24,14 @@ main {
   margin: 60px 90px 90px 90px;
 }
 
+.hr {
+  border: 1px solid #fff;
+  margin-top: 100px;
+}
+
 figcaption {
   margin-bottom: 20px;
 }
-
 
 .interests_skills {
   display: flex;
@@ -47,13 +51,13 @@ nav {
 }
 
 nav a {
-    color: rgb(38, 38, 100) !important;
-    position: relative;
-    font-weight: 700;
-    text-decoration: none;
-    padding: 20px;
-    width: 50%;
-    text-align: center;
+  color: rgb(38, 38, 100) !important;
+  position: relative;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
 }
 nav a:hover {
   background-color: rgb(38, 38, 100);
@@ -67,7 +71,7 @@ nav a:hover {
 }
 
 #contact {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 .social {
   display: flex;
@@ -89,6 +93,20 @@ nav a:hover {
   font-size: 30px;
   font-family: "Courier New", Courier, monospace;
   font-weight: 700;
+}
+.tel_mail {
+  margin-top: 50px !important;
+  margin-bottom: 50px;
+  list-style-type: none;
+}
+.tel_mail a {
+  text-decoration: none;
+  font-size: 20px;
+  margin: 40px 0px;
+  line-height: 3;
+}
+.tel_mail a:hover {
+  border-bottom: 1.5px solid #fff;
 }
 
 .about_me {

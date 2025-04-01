@@ -94,7 +94,7 @@ nav a:hover {
 }
 .fa {
   padding: 20px 10px;
-  background-color: var(--secondary-color);
+  background-color: var(--secondary-colorco);
   width: 400px;
   color: var(--dark-bg-color) !important;
   display: flex;

@@ -4,9 +4,14 @@
   box-sizing: inherit;
 }
 
+:root {
+  --dark-bg-color: #181818;
+  --secondary-color: #FFEB3B;
+}
+
 html {
   box-sizing: border-box;
-  background-color: #181818;
+  background-color: var(--dark-bg-color);
   font-family: "Courier New", Courier, monospace;
 }
 
@@ -20,7 +25,7 @@ body p {
 
 h1 {
   text-align: center;
-  color: #FFEB3B;
+  color: var(--secondary-color);
   font-size: 2.5rem;
 }
 
@@ -54,7 +59,7 @@ nav {
 }
 
 nav a {
-  color: rgb(38, 38, 100) !important;
+  color: var(--dark-bg-color) !important;
   position: relative;
   font-weight: 700;
   text-decoration: none;
@@ -63,13 +68,13 @@ nav a {
   text-align: center;
 }
 nav a:hover {
-  background-color: #FFEB3B;
-  color: #181818;
+  background-color: var(--secondary-color);
+  color: var(--dark-bg-color);
 }
 
 .my_main span {
   padding: 10px;
-  border: 2px #FFEB3B solid;
+  border: 2px var(--secondary-color) solid;
   line-height: 4;
 }
 
@@ -89,14 +94,14 @@ nav a:hover {
 }
 .fa {
   padding: 20px 10px;
-  background-color: #FFEB3B;
+  background-color: var(--secondary-color);
   width: 400px;
-  color: #262664 !important;
+  color: var(--dark-bg-color) !important;
   display: flex;
   flex-direction: column;
 }
 .social p {
-  color: #262664 !important;
+  color: var(--dark-bg-color) !important;
   text-decoration: none;
   margin-top: 10px;
   font-size: 30px;

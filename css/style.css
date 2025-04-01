@@ -6,18 +6,22 @@
 
 html {
   box-sizing: border-box;
-  background-color: #262664;
+  background-color: #181818;
   font-family: "Courier New", Courier, monospace;
 }
 
-body,
-a {
+body {
   color: #fff;
   margin: 0 auto;
+}
+body p {
+  font-size: 1rem;
 }
 
 h1 {
   text-align: center;
+  color: #FFEB3B;
+  font-size: 2.5rem;
 }
 
 main {
@@ -35,7 +39,6 @@ figcaption {
 
 .interests_skills {
   display: flex;
-
 }
 
 nav {
@@ -60,27 +63,33 @@ nav a {
   text-align: center;
 }
 nav a:hover {
-  background-color: rgb(38, 38, 100);
-  color: #fff !important;
+  background-color: #FFEB3B;
+  color: #181818;
 }
 
 .my_main span {
   padding: 10px;
-  border: 2px #fff solid;
+  border: 2px #FFEB3B solid;
   line-height: 4;
 }
 
 #contact {
   margin-top: 100px;
 }
+#contact a {
+  color: white;
+}
 .social {
   display: flex;
   text-align: center;
   justify-content: space-evenly;
 }
+.social a {
+  text-decoration: none;
+}
 .fa {
   padding: 20px 10px;
-  background-color: #fff;
+  background-color: #FFEB3B;
   width: 400px;
   color: #262664 !important;
   display: flex;
@@ -101,7 +110,7 @@ nav a:hover {
 }
 .tel_mail a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.3rem;
   margin: 40px 0px;
   line-height: 3;
 }
@@ -116,4 +125,37 @@ nav a:hover {
 #biography {
   margin-right: 50px;
   width: 80%;
+}
+
+@media only screen and (max-width: 990px) {
+  main {
+    margin: 60px 20px 90px 20px;
+  }
+  figure {
+    margin: 0px;
+  }
+  figure img {
+    width: 100%;
+  }
+  .interests_skills {
+    display: block;
+  }
+  .social {
+    display: block;
+  }
+  .social a {
+    margin: 30px;
+  }
+  .fa {
+    padding: 10px 10px;
+    width: 100%;
+  }
+  .about_me {
+    display: block;
+  }
+  #biography {
+    margin-right: 0px;
+    width: 100%;
+  }
+  
 }
